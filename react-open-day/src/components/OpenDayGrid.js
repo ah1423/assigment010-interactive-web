@@ -17,38 +17,38 @@ class OpenDayGrid extends React.Component {
     };
   }
 
-  eventsAndNews= (e) => {
+  EventsAndNews= (e) => {
     e.preventDefault();
     //alert("Section on Events and News");
     this.setState({ selectedArea: "eventsAndNews" });
     console.log("area:" + this.state.selectedArea);
   };
-  supportingYou = () => {
+  SupportingYou = () => {
     //alert("Section on Supporting You");
     this.setState({ selectedArea: "supportingYou" });
     console.log("area:" + this.state.selectedArea);
   };
-  businessEngagement = () => {
+  BusinessEngagement = () => {
     //alert("Section on Business Engagement");
     this.setState({ selectedArea: "businessEngagement" });
     console.log("area:" + this.state.selectedArea);
   };
-  studyWithUs = () => {
+  StudyWithUs = () => {
     //alert("Section on Study With Us");
     this.setState({ selectedArea: "studyWithUs" });
     console.log("area:" + this.state.selectedArea);
   };
-  universityLinks = () => {
+  UniversityLinks = () => {
     //alert("Section on University Links ");
     this.setState({ selectedArea: "universityLinks" });
     console.log("area:" + this.state.selectedArea);
   };
-  contactUs = () => {
+  ContactUs = () => {
     //alert("Section on Contact Us");
     this.setState({ selectedArea: "contactUs" });
     console.log("area:" + this.state.selectedArea);
   };
-  applyNow= () => {
+  ApplyNow= () => {
     //alert("Section on Apply Now");
     this.setState({ selectedArea: "applyNow" });
     console.log("area:" + this.state.selectedArea);
@@ -87,28 +87,28 @@ class OpenDayGrid extends React.Component {
                 shape="rect"
                 coords="238,56,377,137"
                 alt="TV"
-                onClick={EventsAndNews}
+                onClick={this.EventsAndNews}
                 href="#"
               />
               <area
                 shape="rect"
                 coords="380,158,648,183"
                 alt="YellowTable"
-                onClick={SupportingYou}
+                onClick={this.SupportingYou}
                 href="#"
               />
               <area
                 shape="rect"
                 coords="924,235,1087,587"
                 alt="RedTable"
-                onClick={BusinessEngagement}
+                onClick={this.BusinessEngagement}
                 href="#"
               />
               <area
                 shape="rect"
                 coords="208,583,369,668"
                 alt="RedTable"
-                onClick={StudyWithUs}
+                onClick={this.StudyWithUs}
                 href="#"
                 
               />
@@ -116,7 +116,7 @@ class OpenDayGrid extends React.Component {
                 shape="rect"
                 coords="426,577,584,663"
                 alt="RedTable"
-                onClick={UniversityLinks}
+                onClick={this.UniversityLinks}
                 href="#"
                 
               />
@@ -124,7 +124,7 @@ class OpenDayGrid extends React.Component {
                 shape="rect"
                 coords="645,574,801,666"
                 alt="RedTable"
-                onClick={ContactUs}
+                onClick={this.ContactUs}
                 href="#"
                 
               />
@@ -132,7 +132,7 @@ class OpenDayGrid extends React.Component {
                 shape="rect"
                 coords="860,577,1017,666"
                 alt="RedTable"
-                onClick={ApplyNow}
+                onClick={this.ApplyNow}
                 href="#"
                 
               />
