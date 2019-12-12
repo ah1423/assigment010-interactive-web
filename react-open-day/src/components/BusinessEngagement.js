@@ -1,22 +1,23 @@
 import React from "react";
+import Accordion from 'react-bootstrap/Accordion'
+import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
+
+
 
 export const BusinessEngagment= () => {
+  
 
   return (
-
-    <div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Recruiting Talent
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-          <p>
+    <Accordion defaultActiveKey="0">
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="0">
+      Recruiting Talent
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="0">
+      <Card.Body><p>
           At University Centre Peterborough, we want to help support you when looking for new staff to fill skills gaps, help innovate and move your business forward.  We are committed to assisting employers in sourcing and keeping talent in the area at the conclusion of their studies and continuing the journey together.
           </p>
           <p>
@@ -43,21 +44,17 @@ export const BusinessEngagment= () => {
           <li>a cost-effective talent solution</li>
         <p>Recruiting a graduate is easy, and our team of experts are on hand to offer advice, tailored solutions and help finding the right graduate talent for your business.  We will help you create an employer profile and upload opportunities. </p>
         <p>You can promote your vacancies all year round to students from many different disciplines, all offering new ideas, energy and benefits to your business.  Our Employabiity team provides information, advice and guidance both before and during your recruitment process.</p>
-
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Workplace Opportunities
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-          <p>Internships, work experience/tasters, part-time work and volunteering opportunities allow:</p>
+        </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      Workplace Opportunities
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="1">
+      <Card.Body> <p>Internships, work experience/tasters, part-time work and volunteering opportunities allow:</p>
           <li>students to gain understanding of the industry, build practical experience, develop workplace skills and increase self-confidence  </li>
           <li>employers to participate in corporate social responsibility (CSR) and evidence positive community impact whilst identifying potential employers with minimal risk</li>
         <h4>Internships</h4>
@@ -76,21 +73,18 @@ export const BusinessEngagment= () => {
       <h4>Volunteering</h4>
       <p>Providing volunteering opportunities will help you develop a future talent pipeline whilst evidencing positive community impact.  It also can raise awareness of your brand and help address diversity.  Our students are able to develop skills, knowledge and behaviours required in your sector.  </p>
       <p>To talk to us about how volunteering opportunities can help your business, contact the Employer Hub using the contact form below.</p>
-      
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Raising your profile
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-          <p>There are a number of different ways to raise the profile of your organisation on campus, promote your recruitment opportunities and engage with our graduates:</p>
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      Raising your profile
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="1">
+      <Card.Body>    <p>There are a number of different ways to raise the profile of your organisation on campus, promote your recruitment opportunities and engage with our graduates:</p>
       <li>Employer presentations </li>
       <li>Inviting students to conferences, meetings, network groups</li>
       <li>Site visits</li>
@@ -132,10 +126,12 @@ export const BusinessEngagment= () => {
       <h4>Sponsorship and advertising opportunities</h4>
       <p>We have a number of sponsorship opportunities. You could sponsor one of our awards, sponsor a student on campus as a brand ambassador, or sponsor resources required within the industry.</p>
     <p>To talk to us about how these opportunities can help your business, contact the Employer Hub using the contact form below.</p>
-      </div>
-    </div>
-  </div>
-</div>
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  
+</Accordion>
+
 
    
   );

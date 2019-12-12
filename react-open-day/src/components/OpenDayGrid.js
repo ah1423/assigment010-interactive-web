@@ -168,6 +168,10 @@ class OpenDayGrid extends React.Component {
                     <div>
                       <ApplyNow/>
                     </div>
+                    ) : this.state.selectedArea === "studyWithUs" ? (
+                      <div>
+                        <StudyWithUs/>
+                      </div>
             ) : (
               <h1>Click On The Image Above To Find Out More</h1>
             )}

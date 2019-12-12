@@ -3,6 +3,7 @@ import React from "react";
 export const ApplyNow = () => {
 
   return (
+    
 
     <div class="tab-pane fade" id="Apply" role="tabpanel" aria-labelledby="Apply-tab">
     <h2 class="text-center"> 
