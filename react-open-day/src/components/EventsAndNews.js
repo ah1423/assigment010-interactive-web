@@ -43,7 +43,7 @@ export const EventsAndNews = () => {
             <div class="row row-striped">
                 <div class="col-2 text-right">
                     <h1 class="display-4"><span class="badge badge-secondary">29</span></h1>
-                    <h2>FEb</h2>
+                    <h2>FEB</h2>
                 </div>
                 <div class="col-10">
                     <h3 class="text-uppercase"><strong>University Open Day</strong></h3>

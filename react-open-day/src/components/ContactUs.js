@@ -6,7 +6,7 @@ export const ContactUs= () => {
     <form> 
     <div class="form-row">
       
-      <div class="form-group col-md-6">
+      <div className="form-group col-md-6">
         <label for="inputPassword4">FullName</label>
         <input type="FullName" class="form-control" id="inputFullName" placeholder="FullName"/>
       </div>

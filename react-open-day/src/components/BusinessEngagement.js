@@ -79,11 +79,11 @@ export const BusinessEngagment= () => {
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      <Accordion.Toggle as={Button} variant="link" eventKey="2">
       Raising your profile
       </Accordion.Toggle>
     </Card.Header>
-    <Accordion.Collapse eventKey="1">
+    <Accordion.Collapse eventKey="2">
       <Card.Body>    <p>There are a number of different ways to raise the profile of your organisation on campus, promote your recruitment opportunities and engage with our graduates:</p>
       <li>Employer presentations </li>
       <li>Inviting students to conferences, meetings, network groups</li>

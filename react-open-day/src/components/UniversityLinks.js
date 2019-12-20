@@ -43,6 +43,25 @@ COURSES</h6>
       </Card.Body>
     </Accordion.Collapse>
   </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="2">
+      University of Peterborough Project
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="2">
+      <Card.Body>
+    <p>University Centre Peterborough (UCP) have been awarded £6.5 million in principle from the Cambridgeshire and Peterborough Combined Authority at a meeting held on 28 June 2017 to accelerate the establishment of UCP to a fully-fledged university for Peterborough.</p>
+     <p>£3.8 million of the funding awarded will be used over the next three years to increase student numbers at UCP from 800 to 3,000 by 2022.  This will be achieved by expanding the curriculum, recruiting staff and enhancing the university centre profile both in the city and across the UK. </p>
+     <p>University Centre Peterborough was formed in 2007 as a joint venture between Anglia Ruskin University (ARU) and Peterborough Regional College (PRC) and offers a wide portfolio of undergraduate courses accredited by ARU and higher education courses in engineering and construction which are delivered by PRC.</p>
+     <p>A purpose built university centre campus was opened in November 2009 and is located in the heart of Peterborough on the same grounds as PRC.  As student numbers grow, the remaining funding could be used to secure an additional UCP interim site before the development of a permanent campus for the university for Peterborough as well as enhancing the student experience and amenities.</p>
+     <p>Professor Iain Martin, Vice-Chancellor for Anglia Ruskin University said “Anglia Ruskin University are proud to be joint partners and have been instrumental in improving the higher education provision in Cambridgeshire and Peterborough.  This next step in growing University Centre Peterborough for future generations and the wider economy in Peterborough will continue to put Cambridgeshire at the forefront of higher education in the UK.”</p>
+     <p>Terry Jones, Principal and CEO for Peterborough Regional College said “I’m delighted that our Phase 2 Funding Bid to the Combined Authority for Peterborough and Cambridgeshire has been approved. University Centre Peterborough is a thriving partnership between Peterborough Regional College and Anglia Ruskin University. Working together, we have created a strong foundation from which an independent university can grow. This funding will allow us to take the next step of this journey with confidence.”</p>
+     <p>Liz Knight, Academic Director for University Centre Peterborough said “The announcement of this funding is the most important step in the future of our university centre since the formation 10 years ago.  We put students at the heart of everything we do and this is testament to all past and current staff and students who have helped shape the institution into what it is today and for the future.”</p>
+     
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
 </Accordion>
    
   );
